@@ -1,0 +1,339 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: monospace;
+    line-height: 1.6;
+    background-color:#222629; /* Dark background */
+    
+    color: #ffffff; /* White text color */
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 20px 20px 0px;
+    
+
+}
+.container_3{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 20px 20px 0px;
+    
+}
+header {
+    background-color:rgba(255,255,255,0.1); /* Darker background for header */
+    color: #ffffff; /* White text color */
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+  z-index: 1000;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for header */
+}
+
+header h1 {
+    font-family: monospace;
+    float: left;
+    margin: 0;
+    font-size: 1.6em;
+}
+
+nav ul {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.5rem 0;
+    position: relative;
+    display: inline-block;
+}
+
+#about  {
+    margin-top: 130px;
+    position: relative;
+    padding: 60px 0px 0px 0px;
+}
+#skills #cont11 .cont1{
+     display: flex;
+     flex-direction: row;
+     flex-wrap:wrap;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+     margin: 0 auto;
+     padding: 20px;
+}
+#skills #cont11 .cont1 .sk{
+    width: 13vw;
+    height: 9vw;
+     border: 2px solid grey;
+     margin: 10px;
+     padding: 5px;
+     background-color:rgba(169, 164, 164, 0.1);
+     backdrop-filter: blur(100px);
+     
+     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+     border-radius:2px ;
+}
+
+section h2 {
+    font-family: monospace;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #86c232;/* light green text color */
+}
+
+section p {
+    text-align: left;
+    color: #cccccc; /* Light gray text color for paragraphs */
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background: #121212; /* Darker background for footer */
+    color: #ffffff; /* White text color */
+    padding: 10px 0;
+    position: relative;
+    clear: both;
+    margin-top: 40px; /* Space above footer */
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Subtle shadow above footer */
+}
+
+footer p {
+    margin: 0;
+}
+
+h3{
+    font-family: monospace;
+    color: #86c232;
+}
+#logo{
+    width: 160px;
+}
+#name{
+    height: 50px;
+}
+#project .container .portfolio-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .portfolio-item1{
+    border: 2px solid grey;
+    width: 550px;
+    height: 300px;
+    padding: 10px;
+    
+    margin: 10px;
+    background-color:rgba(169, 164, 164, 0.1);
+}
+#project-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+    margin-top: 15px;
+}
+#para{
+    margin-left: 5px;
+}
+
+.portfolio-item1 img{
+    width: 300px;
+
+}
+
+
+
+#skills #cont11 .cont1 .sk:hover {
+    border-color: #86c232; /* Highlight border color on hover */
+    transform: scale(1.05); /* Slightly enlarge element */
+    transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #skil{
+    width: 50px;
+    margin-left:50px;
+    filter: brightness(160%);
+    filter: contrast(110%);
+    margin-top: 15px;
+  }
+  #ang{
+       width: 80px;
+       margin-left: 25px;
+       margin-top:13px ;
+  }
+  button{
+            width: 80px;
+            height: 30px;
+            background-color: #222629;
+            border-color: #cccccc;
+            color: #86c232;
+            font-weight: bolder;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+  }
+
+  #sm a img{
+    filter: invert(100%);
+    width: 40px;
+    margin: 20px;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #contact{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  #projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 60px;
+    
+}
+
+  #skills .sk3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #divider{
+    width:100%;
+    filter: opacity(120%);
+    z-index: 10;
+    position: absolute;
+    margin-top: -80px;
+  }
+.btn{
+    text-decoration: none;
+    background-color: transparent;
+    border-color: #cccccc;
+    border-radius: 3px;
+    border-style: solid;
+    border: 1px;
+    width: 15px;
+    color: #86c232;
+}
+
+
+
+@media (max-width: 558px) {
+    body{
+        width:100%;
+    }
+    .container, .container1 {
+        width: 90%;
+    }
+    .container_3{
+        margin-left: 10px;
+        padding-right: 0%;
+    }
+    .container_3 nav{
+        width: 130%;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    #skills{
+        margin-top: 20px;
+    }
+    #skills #cont11 .cont1 .sk {
+        width: 50vw;
+        height: 30vw;
+    }
+    #projects{
+        width: 100%;
+        margin-top: 20px;
+    }
+     .portfolio-item1 {
+width: 300px;
+height: fit-content;
+    }
+    #project-content{
+        flex-direction: column-reverse;
+    }
+    .portfolio-item1 img{
+        width: 280px;
+    
+    }
+    header{
+        width:100%;
+    }
+    #logo{
+        width: 80px;
+        float: left;
+    }
+    nav ul{
+        width:100% ;
+    }
+
+    #divider{
+        width:100%;
+        filter: opacity(120%);
+        z-index: 10;
+        position: absolute;
+        margin-top: -20px;
+      }
+      #contact{
+       margin-top: 20px;
+      }
+      #skil{
+        margin-left: 60px;
+        margin-bottom: 10px;
+      }
+      #about{
+        margin-top:0px;
+        padding-top: 90px;
+      }
+    }
